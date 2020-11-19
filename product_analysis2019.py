@@ -80,8 +80,9 @@ def main():
     plt.imshow(wc)
     plt.axis("off")
     plt.figure(figsize=(10, 6), dpi=100)
-    plt.show()
 
+    plt.show()
+    wc.to_file('C:\\Users\\Big data\\nlp\\demo.png')
 
 if __name__ == '__main__':
     main()
