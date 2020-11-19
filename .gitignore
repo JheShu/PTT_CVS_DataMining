@@ -9,6 +9,7 @@ __pycache__/
 #ignore font
 /font/
 /product/
+.idea
 # Distribution / packaging
 .Python
 build/
